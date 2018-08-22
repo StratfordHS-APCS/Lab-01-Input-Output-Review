@@ -8,12 +8,12 @@ This lab was designed to give you practice using the **Scanner** class to read i
 ## Instructions
 1. Modify the link at the top of your **Readme.md** to reflect your username.
 2. Edit the main() method in **Input.java** to do the following:
-  * Instantiate a Scanner variable
-  * Ask the user for their name and store the result as a string.
-  * Ask the user for their age and store the result as an int.
-  * Ask the user for the year of their most recent birthday and store the result as an int.
-  * Calculate the year they were born.
-  * Output the message "Name was born in xxxx"
+    * Instantiate a Scanner variable
+    * Ask the user for their name and store the result as a string.
+    * Ask the user for their age and store the result as an int.
+    * Ask the user for the year of their most recent birthday and store the result as an int.
+    * Calculate the year they were born.
+    * Output the message "Name was born in xxxx"
 
 ## Notes
 * Checkstyle config link is http://www.daveavis.com/cs/checkstyle_SHS.xml
