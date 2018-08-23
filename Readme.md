@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/StratfordHS-APCS/Lab-02-Input-Output-Review-username.svg?token=L8ZuTUsXtxKqevAPVWLC&branch=master)](https://travis-ci.com/StratfordHS-APCS/Lab-02-Input-Output-Review-username)
+[![Build Status](https://travis-ci.com/StratfordHS-APCS/lab-01-input-output-review-username.svg?token=L8ZuTUsXtxKqevAPVWLC&branch=master)](https://travis-ci.com/StratfordHS-APCS/lab-01-input-output-review-username)
 
 # Lab 01 - Input Output Review
 
