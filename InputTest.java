@@ -7,6 +7,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.ByteArrayInputStream;
 import java.io.OutputStream;
 import java.io.PrintStream;
+import java.io.InputStream;
 
 /**
  * The test class InputTest.
@@ -55,6 +56,9 @@ public class InputTest
     public void testInput()
     {
         //Prepare to redirect output
+        PrintStream origOut = System.out;
+        InputStream origIn = System.in;
+        
         os = new ByteArrayOutputStream();
         PrintStream ps = new PrintStream(os);
         System.setOut(ps);
@@ -75,7 +79,7 @@ public class InputTest
         assertTrue( "Incorrect output: ", result.contains("Dave was born in 1977") );
         //assertEquals( "Incorrect output: ", "Dave was born in 1977", result);
         
-        System.setOut( System.out );
-        System.setIn( System.in );
+        System.setOut( origOut );
+        System.setIn( origIn );
     }
 }
